@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+/* default Setting */
+body{
+    --main-color: #283526;
+    --primry-color: #888888;
+    --button-background: #4b709e;
+    --primary-button-background: #fe7649;
+    --background-color: #f0f7ff;
+}
+h1,h2{
+    font-family: 'Arvo',
+    serif;
+    color: var(--main-color);
+}
+h3,h4{
+    color:var(--main-color);
+}
+h3{
+    font-weight: bold;
+    font-size:2rem;
+    line-height: 6rem;
+    word-spacing:1px;
+    text-transform: capitalize;
+ 
+}
+p,a,li,button{
+    font-family: 'Nunito',
+    sans-serif;
+    font-size:2rem;
+    color: var(--primry-color);
+
+}
