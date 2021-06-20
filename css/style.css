@@ -304,17 +304,20 @@ header .right-side-menu .sub-menu li a:hover {
     text-transform: lowercase;
     margin-bottom: 3rem;
 }
+
 .common-section .right-side .common-button {
-    padding:1rem 3rem;
+    padding: 1rem 3rem;
     background: var(--primary-button-background);
     margin-right: 2rem;
-    color:#fff;
+    color: #fff;
 }
-.common-section .right-side button:last-child{
-    color:var(--main-color);
+
+.common-section .right-side button:last-child {
+    color: var(--main-color);
     background-color: transparent;
 
 }
+
 .common-section .right-side .common-button:hover {
     background: #cc491d;
 }
@@ -322,4 +325,75 @@ header .right-side-menu .sub-menu li a:hover {
 .common-section .right-side .common-button-normal:hover {
     background: var(--primary-button-background);
     color: #f0f7ff;
+}
+
+/* *************third section Card styling********************************************** */
+.third-section {
+    border: 4px solid green;
+    width: 100%;
+    height: 100%;
+    background: var(--background-color);
+    padding: 0 20rem;
+}
+
+.third-section h2 {
+    font-size: 5.5rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+.third-section .para {
+    width: 40rem;
+    height: 9rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin: auto;
+}
+.third-section .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 4rem;
+}
+.third-section .card .card-content{
+    border:0.9px black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:#fff;
+    box-shadow: 5px 10px 14px rgba(0, 0, 0, 0.6);
+    height:400px;
+    padding-top: 2rem;
+    text-align: center;
+    transition: all 0.3s linear;
+    border-radius: 2rem;
+    /* overflow: hidden; */
+    margin-bottom: 10px;
+}
+.third-section .card .card-content img{
+   width: 15rem;
+   height: 15rem;
+   border:1px solid grey;
+   box-shadow: 5px 10px 14px rgba(0, 0, 0, 0.6);
+   border-radius: 50%;
+   transition: all 0.3s;
+    object-fit: contain;
+}
+.third-section .card .card-content h3{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-top: 2rem;
+}
+.third-section .card .card-content p{
+    font-size:2rem;
+    text-align: start;
+    padding-left: 10px;
+}
+.third-section .card .card-content:hover{
+    transform: scale(0.9);
+}
+.third-section .card .card-content img:hover{
+    transform: rotate(360deg);
 }
