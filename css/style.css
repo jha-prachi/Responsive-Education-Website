@@ -329,11 +329,14 @@ header .right-side-menu .sub-menu li a:hover {
 
 /* *************third section Card styling********************************************** */
 .third-section {
-    border: 4px solid green;
+
     width: 100%;
     height: 100%;
     background: var(--background-color);
-    padding: 0 20rem;
+    padding: 7px 20rem;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    
 }
 
 .third-section h2 {
@@ -390,10 +393,38 @@ header .right-side-menu .sub-menu li a:hover {
     font-size:2rem;
     text-align: start;
     padding-left: 10px;
+    margin-bottom: 10px;
 }
 .third-section .card .card-content:hover{
     transform: scale(0.9);
 }
 .third-section .card .card-content img:hover{
     transform: rotate(360deg);
+}
+/* **************4th section styling starts***************************** */
+#section-four .right-side h2{
+    width:40rem;
+
+}
+#section-four .left-side{
+    position: relative;
+   
+}
+#section-four .left-side .image{
+    position: absolute;
+    width:10rem;
+    height: 15rem;
+    object-fit: contain;
+     /* border:4px solid red; */
+    bottom:5rem;
+    left:90%;
+     box-shadow: 5px 10px 14px rgba(0, 0, 0, 0.6);
+     border-radius: 20px;
+    
+}
+
+#section-four .left-side img{
+    width:inherit;
+    height: inherit;
+    /* margin: 0; */
 }
