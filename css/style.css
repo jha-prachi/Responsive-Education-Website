@@ -428,3 +428,42 @@ header .right-side-menu .sub-menu li a:hover {
     height: inherit;
     /* margin: 0; */
 }
+/* 5th section styling ***************************** */
+#section5{
+    height: auto;
+
+}
+#section5 .left-side img{
+   margin:0;
+ 
+}
+#section5 .right-side{
+    justify-content: flex-start;
+    padding-top: 5rem;
+}
+#section5 .right-side h2{
+    width:63rem;
+    letter-spacing: 0;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 6.3rem;
+   
+}
+#section5 .right-side h3{
+    text-transform: none;
+       letter-spacing: 3px;
+       font-weight: 900;
+       /* text-indent: 10px; */
+
+}
+#section5 .right-side .fitness-goals p{
+    margin: 0;
+
+ 
+}
+#section5 .right-side div{
+    margin-bottom: 1rem;
+}
+.fa-heart{
+    color:rgba(106, 2, 2,0.9);
+}
