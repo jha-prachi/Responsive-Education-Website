@@ -763,3 +763,28 @@ footer {
 .icon-bar a:hover{
     transform:translateX(0);
 }
+.icon-bar a .fab{
+    font-size:2rem;
+    animation:anime 2s linear alternate-reverse infinite;
+}
+@keyframes anime {
+    from{
+        transform: scale(0.6);
+    }
+    to{
+        transform:rotateZ(360deg);
+    }
+}
+/* adding colors */
+.icon-bar .twitter{
+    background: #00aced;
+}
+.icon-bar .instagram{
+    background: #cd201f;
+}
+.icon-bar .pintrest{
+    background: rgba(106, 2, 2, 0.9);
+}
+.icon-bar .linkedin{
+    background: #0077b5;
+}
