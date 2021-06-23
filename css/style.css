@@ -495,11 +495,11 @@ header .right-side-menu .sub-menu li a:hover {
     sans-serif;
 }
 ul {
-    list-style: none
+    list-style: none;
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
    
 }
 
@@ -738,4 +738,28 @@ footer {
     .footer-bottom-wrapper {
         font-size: 1.3em
     }
+}
+
+/* **********social media icon bar starts******************  */
+.icon-bar{
+    position: fixed;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.icon-bar a{
+    width:18rem;
+    background: #3b5999;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.7rem;
+    padding:0.5rem;
+    /* logic */
+    transition: all 0.5s linear;
+    transform: translateX(-15rem);
+}
+.icon-bar a:hover{
+    transform:translateX(0);
 }
